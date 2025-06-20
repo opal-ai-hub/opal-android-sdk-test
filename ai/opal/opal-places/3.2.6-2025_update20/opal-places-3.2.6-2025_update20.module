@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-places",
+    "version": "3.2.6-2025_update20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "19.2.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-livedata"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-places-3.2.6-2025_update20.aar",
+          "url": "opal-places-3.2.6-2025_update20.aar",
+          "size": 75065,
+          "sha512": "9c14ea6b7535e0454dd3c6c369ffbe1bc9716e80b5898c7ecb82873566b047085e4e9ad2f74147f850b4dcca2598a65496ab9d13d251cfec67557b855fcd7d56",
+          "sha256": "20ec655af300d07ebe6ece87a7b530104cde528721155d823aec955655c1f15b",
+          "sha1": "a9bd7e607929ecdd6f85f9d112625595be2999d1",
+          "md5": "13417ff35a872b12329d95e0bf5ede1e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "19.2.0"
+          },
+          "excludes": [
+            {
+              "group": "androidx.lifecycle",
+              "module": "lifecycle-livedata"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-places-3.2.6-2025_update20.aar",
+          "url": "opal-places-3.2.6-2025_update20.aar",
+          "size": 75065,
+          "sha512": "9c14ea6b7535e0454dd3c6c369ffbe1bc9716e80b5898c7ecb82873566b047085e4e9ad2f74147f850b4dcca2598a65496ab9d13d251cfec67557b855fcd7d56",
+          "sha256": "20ec655af300d07ebe6ece87a7b530104cde528721155d823aec955655c1f15b",
+          "sha1": "a9bd7e607929ecdd6f85f9d112625595be2999d1",
+          "md5": "13417ff35a872b12329d95e0bf5ede1e"
+        }
+      ]
+    }
+  ]
+}
