@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-analytics-compose",
+    "version": "3.2.6-2025_update22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.opal",
+          "module": "opal-analytics",
+          "version": {
+            "requires": "3.2.6-2025_update22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-analytics-compose-3.2.6-2025_update22.aar",
+          "url": "opal-analytics-compose-3.2.6-2025_update22.aar",
+          "size": 4637,
+          "sha512": "80a50f9a197789855e3cbd19ce0d6783b39a75d6f5855bb99e009bc3394c7d1a64019c8333d7504e932649595f656a7fbb14bebc2c29375805b3c440c60ed00c",
+          "sha256": "362f640ea84ff8ca3e9aadf161e07a7610c7b259863ea680f37c0606e7134fa4",
+          "sha1": "496463505ab0e0d16326e03f02a5ae52c8e15074",
+          "md5": "4ba5b5aabd220cf9b2a3ebd0cf8d15e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ai.opal",
+          "module": "opal-analytics",
+          "version": {
+            "requires": "3.2.6-2025_update22"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-android",
+          "version": {
+            "requires": "1.9.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-analytics-compose-3.2.6-2025_update22.aar",
+          "url": "opal-analytics-compose-3.2.6-2025_update22.aar",
+          "size": 4637,
+          "sha512": "80a50f9a197789855e3cbd19ce0d6783b39a75d6f5855bb99e009bc3394c7d1a64019c8333d7504e932649595f656a7fbb14bebc2c29375805b3c440c60ed00c",
+          "sha256": "362f640ea84ff8ca3e9aadf161e07a7610c7b259863ea680f37c0606e7134fa4",
+          "sha1": "496463505ab0e0d16326e03f02a5ae52c8e15074",
+          "md5": "4ba5b5aabd220cf9b2a3ebd0cf8d15e9"
+        }
+      ]
+    }
+  ]
+}

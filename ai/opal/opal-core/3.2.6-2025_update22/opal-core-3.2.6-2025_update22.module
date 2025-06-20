@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-core",
+    "version": "3.2.6-2025_update22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.2.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.8-android"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging",
+          "version": {
+            "requires": "24.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-core-3.2.6-2025_update22.aar",
+          "url": "opal-core-3.2.6-2025_update22.aar",
+          "size": 226291,
+          "sha512": "413ff1ec4a2cff6a166aadb6dd5693b8fa96766f867b42c7968f91396cc2f9b3170e6f7517627327474a57f7b60715ebf189df3fa16d054859f74bc1e5d7c041",
+          "sha256": "b9134c035d0e20fa0f0516b21c773c9555dc49d5b3f04a77ef9adc5a6984a505",
+          "sha1": "5402bc17648c19a3fd88276948386f2e23a49f3a",
+          "md5": "a481d69a203910fdf3861079d45474ad"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.2.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.8-android"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging",
+          "version": {
+            "requires": "24.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-core-3.2.6-2025_update22.aar",
+          "url": "opal-core-3.2.6-2025_update22.aar",
+          "size": 226291,
+          "sha512": "413ff1ec4a2cff6a166aadb6dd5693b8fa96766f867b42c7968f91396cc2f9b3170e6f7517627327474a57f7b60715ebf189df3fa16d054859f74bc1e5d7c041",
+          "sha256": "b9134c035d0e20fa0f0516b21c773c9555dc49d5b3f04a77ef9adc5a6984a505",
+          "sha1": "5402bc17648c19a3fd88276948386f2e23a49f3a",
+          "md5": "a481d69a203910fdf3861079d45474ad"
+        }
+      ]
+    }
+  ]
+}
