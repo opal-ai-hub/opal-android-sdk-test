@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-push-fcm",
+    "version": "3.2.6-2025_update26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-3.2.6-2025_update26.aar",
+          "url": "opal-push-fcm-3.2.6-2025_update26.aar",
+          "size": 149497,
+          "sha512": "3771eeae608c7dfb2f91803f511211b411aac7ea71c47a07bbe2636f18801397d6bdf4fe8ad491f94fbe21efb819651cdc5af16361a4c60811eb665268972089",
+          "sha256": "13d01c9210d134abf60f864b1748b7e7d3c3c26165922744f6fa9a37d3dee809",
+          "sha1": "52a76c5a74cfdabb7ae21aa31e441546ecf14167",
+          "md5": "6a5c016d503c699b3cd0bf6ce0e33ab2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-3.2.6-2025_update26.aar",
+          "url": "opal-push-fcm-3.2.6-2025_update26.aar",
+          "size": 149497,
+          "sha512": "3771eeae608c7dfb2f91803f511211b411aac7ea71c47a07bbe2636f18801397d6bdf4fe8ad491f94fbe21efb819651cdc5af16361a4c60811eb665268972089",
+          "sha256": "13d01c9210d134abf60f864b1748b7e7d3c3c26165922744f6fa9a37d3dee809",
+          "sha1": "52a76c5a74cfdabb7ae21aa31e441546ecf14167",
+          "md5": "6a5c016d503c699b3cd0bf6ce0e33ab2"
+        }
+      ]
+    }
+  ]
+}
