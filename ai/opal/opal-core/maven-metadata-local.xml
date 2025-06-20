@@ -3,11 +3,11 @@
   <groupId>ai.opal</groupId>
   <artifactId>opal-core</artifactId>
   <versioning>
-    <latest>3.2.6-2025_update26</latest>
-    <release>3.2.6-2025_update26</release>
+    <latest>3.2.6-2025_update27</latest>
+    <release>3.2.6-2025_update27</release>
     <versions>
-      <version>3.2.6-2025_update26</version>
+      <version>3.2.6-2025_update27</version>
     </versions>
-    <lastUpdated>20250620192911</lastUpdated>
+    <lastUpdated>20250620195138</lastUpdated>
   </versioning>
 </metadata>

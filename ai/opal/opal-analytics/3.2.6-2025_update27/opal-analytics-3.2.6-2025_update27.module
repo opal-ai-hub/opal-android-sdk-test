@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-analytics",
+    "version": "3.2.6-2025_update27",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-analytics-3.2.6-2025_update27.aar",
+          "url": "opal-analytics-3.2.6-2025_update27.aar",
+          "size": 13526,
+          "sha512": "8563b5a71f9eede8d7dcfbed9bb4970b13b4afbe6a2db5dd02f6200610cb2080fc5d14f8a55a79408f0614d70d23017edea2c3db398a896ec3160fc64e1ee167",
+          "sha256": "9d9ad22b69e9ebe96e92cb86b0b4963da1953e04810400e2c9e67658112d7e47",
+          "sha1": "c7f5289feaf113b96929a23bb76f6b61556f4ec8",
+          "md5": "33928d4d5862bfe5a1abb31ec2de7f52"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-analytics-3.2.6-2025_update27.aar",
+          "url": "opal-analytics-3.2.6-2025_update27.aar",
+          "size": 13526,
+          "sha512": "8563b5a71f9eede8d7dcfbed9bb4970b13b4afbe6a2db5dd02f6200610cb2080fc5d14f8a55a79408f0614d70d23017edea2c3db398a896ec3160fc64e1ee167",
+          "sha256": "9d9ad22b69e9ebe96e92cb86b0b4963da1953e04810400e2c9e67658112d7e47",
+          "sha1": "c7f5289feaf113b96929a23bb76f6b61556f4ec8",
+          "md5": "33928d4d5862bfe5a1abb31ec2de7f52"
+        }
+      ]
+    }
+  ]
+}
