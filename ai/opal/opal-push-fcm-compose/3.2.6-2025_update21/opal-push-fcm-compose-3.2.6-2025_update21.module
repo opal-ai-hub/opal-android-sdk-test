@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.opal",
+    "module": "opal-push-fcm-compose",
+    "version": "3.2.6-2025_update21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantMavenApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.opal",
+          "module": "opal-push-fcm",
+          "version": {
+            "requires": "3.2.6-2025_update21"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-android",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-compose-3.2.6-2025_update21.aar",
+          "url": "opal-push-fcm-compose-3.2.6-2025_update21.aar",
+          "size": 2600,
+          "sha512": "622c2d0333ab77297a02757110dda12844a53ed084b35f26b69c69dbaef898d61d67b2e73fe7607e2f885e38cfec80e78494a5b10605e4b9af09408a68e70642",
+          "sha256": "0d5c8f9dfb60722064570fbb553088b063a1acd37ed442f14c09c05eef8f21a8",
+          "sha1": "079eba129ed877c3fbf15f2cea81b18b9758c1df",
+          "md5": "67a2c5dd46290cf3e79b79130964ab04"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantMavenRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ai.opal",
+          "module": "opal-push-fcm",
+          "version": {
+            "requires": "3.2.6-2025_update21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-android",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opal-push-fcm-compose-3.2.6-2025_update21.aar",
+          "url": "opal-push-fcm-compose-3.2.6-2025_update21.aar",
+          "size": 2600,
+          "sha512": "622c2d0333ab77297a02757110dda12844a53ed084b35f26b69c69dbaef898d61d67b2e73fe7607e2f885e38cfec80e78494a5b10605e4b9af09408a68e70642",
+          "sha256": "0d5c8f9dfb60722064570fbb553088b063a1acd37ed442f14c09c05eef8f21a8",
+          "sha1": "079eba129ed877c3fbf15f2cea81b18b9758c1df",
+          "md5": "67a2c5dd46290cf3e79b79130964ab04"
+        }
+      ]
+    }
+  ]
+}
